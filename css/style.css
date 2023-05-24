@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: darkorange;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+}
+.logo1{
+    height: 250px;
+}
+.menu li {
+    display:inline-block;
+    margin-right: 100px;
+    }
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    
+}
+.menu li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navigator{
+    margin-top: 90px;
+    margin-right: 100px;
+    }
+
+.search{
+    font-size: 18px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 5px;
+    
+}
+.searchbar{
+    height: 100px;
+    margin-right: 0px;
+    margin-left: 700px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    position: absolute;
+}
+.iconuser{
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+}
+.cart{
+    width: 30px;
+    height: auto;
+}
+.sectionimage{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+
+
+.titlesection1{
+    margin-top: 200px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.titlesection1 h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    
+}
+.titlesection1 h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48;
+    font-weight: 600;
+    padding-bottom: 150px;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.custombotton{
+    padding: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+.rectangulo1{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: -20px;
+    position: relative;
+    
+}
+.logonew{
+    position: absolute;
+    height: 100px;
+
+}
+.buttonback{
+    position: absolute;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 25px;
+}
+.elipse1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.amp1{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 16px;
+}
+.stratocaster{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 15px;
+
+}
+.tuner1{
+    position:absolute;
+    margin-left: 700px;
+    margin-top: 16px;
+}
+.flyingv{
+    position:absolute;
+    margin-left: 840px;
+    margin-top:16px;
+
+}
+.pedal2{
+    position:absolute;
+    margin-left: 950px;
+    margin-top: 16px;
+}
+.rack{
+    position:absolute;
+    margin-left: 1065px;
+    margin-top: 15px;
+}
+.forward1{
+    position:absolute;
+    margin-left: 1190px;
+    height: 50px;
+    margin-top: 25px;
+
+
+}
+.sectionimage2{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.titlesection2{
+    margin-top: 1000px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.titlesection2 h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    
+}
+.titlesection2 h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 150px;
+}
+.button2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(50% + 75px); /* la mitad de la altura del h3 más la mitad del alto del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 950px;
+}
+.custombotton2{
+    padding: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.tenoff{
+    position: absolute;
+    height: 100px;
+
+}
+.sectionimage3{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.titlesection3{
+    margin-top: 1780px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.titlesection3 h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+
+}
+.titlesection3 h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 150px;
+
+}
+.button3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(50% + 75px); /* la mitad de la altura del h3 más la mitad del alto del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1732px;
+
+}
+.custombotton3{
+    padding: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.rectangulonegro{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: -5px;
+    position: relative;
+
+}
+.rectangulonegro h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 125px;
+    padding-top: 40px;
+    
+    
+
+}
+
+.parrafo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding: 0 8px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 30px;
+
+    
+}
+.videocontainer{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 2488px;
+    padding-left: 50px;
+}
+footer{
+    background-color: darkorange;
+        width: 100%;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: none;
+}
+.bottommenu{
+    margin-left: 200px;
+    
+}
+.footermenu{
+    text-decoration: none;
+}
+.footermenu li{
+    list-style: none;
+    line-height: 60px;
+}
+.footermenu a{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.footer-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 500px;
+}
+.twitter{
+    margin-left: 40px;
+    width: 60px;
+}
+.instagram{
+    width: 60px;
+}
+.facebook{
+    width: 60px;
+    margin-left: 40px;
+}
+.guitargallery{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    
+}
+.sortguitars{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.sortby1{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+    
+
+}
+.nextguitars{
+    margin-left: 625px;
+    margin-bottom: 100px;
+}
+.next1{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.bassgallery{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    padding-top: 100px;
+
+}
+.sortbass{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.sortby2{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.nextbass{
+    margin-left: 625px;
+    margin-bottom: 100px;
+}
+.next2{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.ampgallery{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.sortamps{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.sortby3{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.nextamps{
+    margin-left: 625px;
+    margin-bottom: 100px;
+}
+.next3{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px; 
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.sortpedals{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+.sortby4{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.nextpedals{
+    margin-left: 625px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.next4{
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px; 
+    
+}
+@media (max-width:1024px){
+    header{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .cart{
+        display: flex;
+        margin-left: 500px;
+        height: auto;
+        margin-top: -18px;
+        justify-content: flex-end;
+    }
+    .nextguitars{
+        margin-left: 450px;
+    }
+    .footer-icons{
+        margin-right: 350px;
+    }
+    }
+    @media (max-width: 768px){
+        .searchbar{
+            display: none;
+
+        }
+        .iconuser{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .cart{
+            display: none;
+        }
+        .navigator{
+            margin-top: 300px;
+            display: flex;
+            flex-direction: row;
+            
+
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+            padding-bottom: 180px;
+            
+            
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 150px;
+        }
+        .logo{
+            position: relative;
+            margin-left: 300px;
+            height: 200px;
+            width: 0px;
+        }
+        .bottommenu{
+            display:none;
+
+        }
+        .footer-icons{
+            margin-left: 250px;
+        }
+        .nextbass{
+            margin-left: 0;
+            padding-left: 350px;
+        }
+        
+        
+            
+        }
+        @media (max-width: 320px){
+            .searchbar{
+                display: none;
+
+            }
+            .iconuser{
+                display: none;
+            }
+            .cart{
+                display: none;
+            }
+            .navigator{
+                display: none;
+            }
+            header{
+                display:flex;
+                justify-content: center;
+                width: 320px;
+            }
+            .logo{
+                display: flex;
+                width: 75px;
+                justify-content: flex-end;
+            }
+            .guitargallery{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            .nextguitars{
+                margin-top: 5px;
+                margin-right: 300px;
+                width: 200px;
+                height: 50px;
+                margin-left: 0px;
+                padding-left: 80px;
+            }
+            .footer-icons{
+                margin-left: 0px;
+                padding-left: 25px;
+
+        }
+            .bassgallery{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap:15px;
+            }
+            .nextbass{
+                margin-top: 5px;
+                margin-right: 300px;
+                width: 200px;
+                height: 50px;
+                margin-left: 0px;
+                padding-left: 80px;
+            }
+    }
